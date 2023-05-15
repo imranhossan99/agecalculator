@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: chocolate;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 550px;
+    height: auto;
+    min-height: 100px;
+    margin: 100px auto;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
+.title{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+h3{
+    margin-top: 0;
+    font-size: 35px;
+    font-weight: normal;
+    font-family: fantasy;
+    text-align: center;
+    box-shadow: 0px 1px olive;
+    background: wheat;
+    color: navy;
+}
+.main-wraper{
+    width: 120px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+.p-title{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    line-height: 0.3; 
+}
+input[type=text]{
+width: 140px;
+min-height: 25px;
+margin: auto;
+padding:8px ;
+outline: none;
+border: 1px solid blue;
+border-radius: 3px;
+}
+button{
+    width: 140px;
+    margin-top: 20px;
+    margin-left: 35%;
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background: skyblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#age{
+    text-align: center;
+    display: block;
+    margin: 10px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font size: 15px;
+    color: red;
+}
